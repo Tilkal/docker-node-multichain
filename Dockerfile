@@ -3,7 +3,7 @@ FROM node:6.10.1-slim
 
 EXPOSE 9720
 
-ARG MC_FILE_NAME
+ARG MC_FILE_NAME=multichain-1.0-beta-1
 
 COPY start_multichain_test.sh /root/
 
